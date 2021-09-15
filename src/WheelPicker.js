@@ -43,6 +43,11 @@ class WheelPicker extends React.Component {
 			}
 			items.push({value: child.props.value, label: child.props.label});
 		});
+
+		console.log('====================================');
+		console.log('WheelPicker._stateFromProps.selectedIndex', selectedIndex);
+		console.log('====================================');
+
 		return {selectedIndex, items};
 	}
 

@@ -1,6 +1,7 @@
 package com.reactlibrary;
 
 import android.graphics.Color;
+import android.util.Log;
 
 import com.facebook.react.bridge.ReadableArray;
 import com.facebook.react.bridge.ReadableMap;
@@ -53,7 +54,7 @@ public class ReactWheelPickerManager extends SimpleViewManager<ReactWheelPicker>
     @ReactProp(name="selectedIndex")
     public void setSelectedIndex(ReactWheelPicker picker, int index) {
         if (picker != null) {
-            picker.setSelectedItemPosition(index);
+            picker.setSelectedItemPosition(index, false);
         }
     }
 
