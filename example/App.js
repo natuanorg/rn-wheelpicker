@@ -11,7 +11,7 @@
 import React, { useState, useEffect } from 'react'
 import { StyleSheet, View } from 'react-native';
 import range from 'lodash/range'
-import Picker from 'rn-wheelpicker'
+import Picker from '@natuanorg/rn-wheelpicker'
 var PickerItem = Picker.Item;
 
 const YEARS = range(1900, 2051, 1).map(String)
