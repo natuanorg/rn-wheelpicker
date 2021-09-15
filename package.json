@@ -1,7 +1,7 @@
 {
   "name": "@natuanorg/rn-wheelpicker",
   "title": "React Native Wheel Picker",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "TODO",
   "main": "index.js",
   "scripts": {
