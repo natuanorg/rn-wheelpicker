@@ -1,21 +1,16 @@
 {
   "name": "@natuanorg/rn-wheelpicker",
   "title": "React Native Wheel Picker",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "TODO",
   "main": "index.js",
-  "files": [
-    "README.md",
-    "android",
-    "index.js"
-  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/https://github.com/natuanorg/rn-wheelpicker.git",
-    "baseUrl": "https://github.com/https://github.com/natuanorg/rn-wheelpicker"
+    "url": "git+https://github.com/natuanorg/rn-wheelpicker.git",
+    "baseUrl": "https://github.com/natuanorg/rn-wheelpicker"
   },
   "keywords": [
     "react-native"
