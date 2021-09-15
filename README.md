@@ -1,17 +1,10 @@
-# rn-wheelpicker
+# React Native Wheel Picker
 
 ## Getting started
 
-`$ npm install rn-wheelpicker --save`
-
-### Mostly automatic installation
-
-`$ react-native link rn-wheelpicker`
+`$ yarn add @natuanorg/rn-wheelpicker`
 
 ## Usage
 ```javascript
-import RnWheelpicker from 'rn-wheelpicker';
-
-// TODO: What to do with the module?
-RnWheelpicker;
+import Picker from '@natuanorg/rn-wheelpicker'
 ```
