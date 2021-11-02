@@ -1,6 +1,7 @@
 // main index.js
-import { Platform, PickerIOS } from 'react-native'
+import { Platform } from 'react-native'
+import {Picker} from '@react-native-picker/picker';
 
 import WheelPicker from './src/WheelPicker'
 
-module.exports = Platform.OS === 'ios' ? PickerIOS : WheelPicker
+module.exports = Platform.OS === 'ios' ? Picker : WheelPicker
